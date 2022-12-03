@@ -1,0 +1,38 @@
+main, header, section, aside, foote{
+    margin: 0;
+    padding: 20px;
+    border: 1px solid black;
+    color: white;
+}
+
+main{
+    background: black;
+}
+
+header{ 
+    background: cyan;
+}
+
+.hero{ 
+    background-color: red;
+}
+
+.content{
+    background-color: green;
+}
+
+.siderbar{ 
+    background-color: purple;
+}
+.footer{
+    background-color: gray;
+}
+@media screen and (min-width: 640px){
+    .flex-container{
+         display: flex;
+    }
+}
+.wrapper{
+    margin:auto;
+    max-width:75rem
+}
